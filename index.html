@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Music - a personal collection of twenty songs and five singers, from Gareth.T and Top Barry to Stefanie Sun, keshi and Lu Guangzhong.">
+  <meta name="author" content="Tianze Tang">
+  <meta name="theme-color" content="#14090C">
+  <title>My Music — twenty songs, five singers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== Header: the same bar on all three pages ===== -->
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">
+        <span class="note" aria-hidden="true">♪</span>
+        My Music
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="singers.html">Singers</a></li>
+          <li><a href="songs.html">Songs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="wrap hero">
+      <div>
+        <span class="eyebrow">Personal collection · 2026</span>
+        <h1>Songs that stay <em>with me</em>.</h1>
+        <p>
+          Five singers, twenty tracks, one playlist that has been in the same order for two years.
+          This site is a small archive of it: who they are, what they sound like, and which song I
+          play first when the day starts badly.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="songs.html">Open the playlist</a>
+          <a class="btn" href="singers.html">Meet the singers</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/vinyl.svg" alt="A vinyl record on a turntable platter with a coral label reading My Music and a tonearm resting on the edge.">
+      </div>
+    </section>
+
+    <!-- ===== Three doors ===== -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>What is in here</h2>
+        <p>Two lists and one rule: if a song survives a whole year of listening, it earns a row.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Singers</h3>
+          <p>Five voices I keep coming back to, each with a short note about the sound and the tracks that matter.</p>
+          <a class="card-link" href="singers.html">Read the five profiles</a>
+        </article>
+        <article class="card">
+          <h3>The playlist</h3>
+          <p>Twenty tracks, in the order I actually listen: from a slow opener to the one that ends too early.</p>
+          <a class="card-link" href="songs.html">See all twenty</a>
+        </article>
+        <article class="card">
+          <h3>How I listen</h3>
+          <p>Headphones on the tram, a speaker in the kitchen, and a rule against skipping the first thirty seconds.</p>
+          <a class="card-link" href="songs.html#add">Recommend a song</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Stats ===== -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>The collection in numbers</h2>
+        <p>Where the twenty tracks sit, genre by genre.</p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <caption>Genres in the playlist — five singers, twenty tracks.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Genre</th>
+              <th scope="col">Singers</th>
+              <th scope="col">Tracks</th>
+              <th scope="col">First one to try</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">R&amp;B · indie pop</th>
+              <td>Gareth.T</td>
+              <td>5</td>
+              <td>Waves</td>
+            </tr>
+            <tr>
+              <th scope="row">Hip-hop · rap</th>
+              <td>Top Barry</td>
+              <td>4</td>
+              <td>DD Backseat</td>
+            </tr>
+            <tr>
+              <th scope="row">Mandopop</th>
+              <td>Stefanie Sun</td>
+              <td>3</td>
+              <td>Rainy Day</td>
+            </tr>
+            <tr>
+              <th scope="row">Chinese pop and rock</th>
+              <td>Lu Guangzhong, Joker Xue, Guo Yifan, Clara La San</td>
+              <td>6</td>
+              <td>Name Engraved in My Heart</td>
+            </tr>
+            <tr>
+              <th scope="row">Alternative pop · lo-fi</th>
+              <td>keshi, Cassanova</td>
+              <td>2</td>
+              <td>WANTCHU</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>5 main singers</td>
+              <td>20 tracks</td>
+              <td>—</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <p class="hint" style="margin-top:14px;">
+        Every figure here is counted from the <a href="songs.html">playlist page</a>, so the numbers cannot drift apart.
+      </p>
+    </section>
+
+    <!-- ===== About the site ===== -->
+    <section class="wrap section">
+      <div class="section-head">
+        <h2>About this site</h2>
+      </div>
+      <p class="hint" style="max-width:66ch;">
+        A three-page personal collection, written by hand in HTML and CSS for the course
+        Introduction to Digital Services (DIG001IT1AE-3033). No JavaScript, no framework, no template —
+        the covers are drawn as SVG so the whole site stays around 60 kB.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>My Music</h2>
+        <p>A personal playlist and five singers, kept for the songs that survive a year of listening.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="singers.html">Singers</a></li>
+          <li><a href="songs.html">Songs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Elsewhere</h2>
+        <ul>
+          <li><a href="songs.html#add">Recommend a song</a></li>
+          <li><a href="#main">Back to top ↑</a></li>
+          <li>© 2026 Tianze Tang</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© 2026 My Music · a student project for DIG001IT1AE-3033</span>
+      <span>HTML + CSS. No JavaScript.</span>
+    </div>
+  </footer>
+</body>
+</html>
